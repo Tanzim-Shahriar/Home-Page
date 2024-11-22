@@ -629,4 +629,89 @@ footer {
       font-size: 1rem;
   }
 }
+  #log {
+    width: 80px; /* Make button smaller for small screens */
+    font-size: 15px; /* Adjust font size */
+  }
 
+  .form-label {
+    font-size: 12px;
+
+  }
+}
+
+/* Blur effect for background when modal is open */
+.blur-background .hero,
+.blur-background header {
+  filter: blur(8px);
+}
+
+/* General Styling */
+.fw-bold {
+  padding-top: 40px; /* Adjust padding for smaller screens */
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px -2px 7px rgba(0, 0, 0, 0.61);
+}
+
+.sign-up {
+  color: rgb(190, 190, 190);
+}
+
+.sign-up:hover {
+  color: rgb(255, 255, 255);
+}
+
+#forgot {
+  text-decoration: none;
+  position: relative;
+  top: -10px; /* Adjust for better alignment */
+  font-size: 14px; /* Smaller text for mobile */
+}
+
+#forgot:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px -2px 7px rgba(0, 0, 0, 0.61);
+}
+
+#log {
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  position: relative;
+  top: -10px;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  font-size: 17px;
+  background-color: transparent;
+  border: white solid 2px;
+  color: white;
+  box-shadow: 1px -2px 7px rgba(61, 60, 60, 0.61);
+}
+
+#log:hover {
+  transition: transform 2ms;
+  transform: translateY(-3px);
+}
+#pass{
+  position: relative;
+  top: -90px;
+}
+
+#logIn{
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 9px;
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#logIn:hover{
+  background-color: var(--primary-color);
+}
